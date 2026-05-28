@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Micro-Matrix</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial,sans-serif;
+    }
+
+    body{
+      background:linear-gradient(135deg,#141e30,#243b55);
+      color:white;
+    }
+
+    nav{
+      background:#0a0f2c;
+      padding:20px;
+      text-align:center;
+      font-size:32px;
+      font-weight:bold;
+    }
+
+    nav span{
+      font-size:14px;
+      font-weight:normal;
+    }
+
+    .hero{
+      height:50vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:linear-gradient(135deg,#ff00cc,#3333ff,#00f2fe);
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:60px;
+    }
+
+    .hero p{
+      margin-top:15px;
+      font-size:22px;
+    }
+
+    .destinations{
+      padding:50px 20px;
+      text-align:center;
+    }
+
+    .destinations h2{
+      margin-bottom:40px;
+      font-size:40px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.1);
+      border-radius:20px;
+      padding:20px;
+      backdrop-filter:blur(10px);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .color-box{
+      height:180px;
+      border-radius:15px;
+      margin-bottom:15px;
+    }
+
+    .about{
+      padding:60px 20px;
+      text-align:center;
+      background:#111827;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:black;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    Micro-Matrix <span>by Arnav Tade</span>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Journey Through The Cell</h1>
+      <p>Explore amazing organelles in a futuristic way.</p>
+    </div>
+  </section>
+
+  <section class="destinations">
+
+    <h2>Cell Organelles</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="color-box" style="background:linear-gradient(135deg,#ff00cc,#3333ff);"></div>
+        <h3>Nucleus</h3>
+        <p>Controls all activities of the cell and stores DNA.</p>
+      </div>
+
+      <div class="card">
+        <div class="color-box" style="background:linear-gradient(135deg,#ff9966,#ff5e62);"></div>
+        <h3>Golgi Apparatus</h3>
+        <p>Packages and transports proteins and lipids.</p>
+      </div>
+
+      <div class="card">
+        <div class="color-box" style="background:linear-gradient(135deg,#36d1dc,#5b86e5);"></div>
+        <h3>Endoplasmic Reticulum</h3>
+        <p>Helps in transport and synthesis inside the cell.</p>
+      </div>
+
+      <div class="card">
+        <div class="color-box" style="background:linear-gradient(135deg,#8e2de2,#4a00e0);"></div>
+        <h3>Ribosomes</h3>
+        <p>Protein factories of the cell.</p>
+      </div>
+
+      <div class="card">
+        <div class="color-box" style="background:linear-gradient(135deg,#11998e,#38ef7d);"></div>
+        <h3>Plastids</h3>
+        <p>Help in photosynthesis in plant cells.</p>
+      </div>
+
+      <div class="card">
+        <div class="color-box" style="background:linear-gradient(135deg,#fc466b,#3f5efb);"></div>
+        <h3>Lysosomes</h3>
+        <p>Digest waste materials inside the cell.</p>
+      </div>
+
+      <div class="card">
+        <div class="color-box" style="background:linear-gradient(135deg,#f7971e,#ffd200);"></div>
+        <h3>Mitochondria</h3>
+        <p>Produce energy for the cell.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="about">
+    <h2>About Us</h2>
+
+    <p>
+      Micro-Matrix is an educational biology-themed travel agency website
+      that takes students on an exciting journey through cell organelles.
+    </p>
+
+    <br>
+
+    <strong>By Arnav Tade</strong>
+  </section>
+
+  <footer>
+    © 2026 Micro-Matrix
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
